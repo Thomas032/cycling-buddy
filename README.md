@@ -1,4 +1,7 @@
-# Cycling Buddy
+## Cycling Buddy - Smart Cycling Computer
+
+![Backend PCB](design/previews/backend_pcb.png)  
+*The backend PCB design of Cycling Buddy.*
 
 This is Cycling Buddy, a smart cycling computer I designed in 2023. The project aimed to fill a gap in the market while helping me improve my skills in PCB design, 3D modeling, and programming.
 
@@ -21,6 +24,9 @@ Cycling Buddy consists of two main components:
 - **Connection**: Wired connection to the compute engine (originally flex cable).
 
 Due to an error in the original UI PCB design, the physical product had to be redesigned, and the UI PCB was ultimately not utilized in the final implementation.
+
+![UI Case](design/previews/ui_case.png)  
+*Original UI case design for the Cycling Buddy.*
 
 ---
 
@@ -49,7 +55,7 @@ Due to an error in the original UI PCB design, the physical product had to be re
 ### Software
 - **Firmware**:
   - Developed for the ESP32 microcontroller.
-  - Handles communication between sensors, UI, and external devices (intened for custom app communication).
+  - Handles communication between sensors, UI, and external devices (intended for custom app communication).
 - **Programming Languages**: C/C++ (for firmware)
 
 ### Mechanical Design
@@ -62,9 +68,11 @@ Due to an error in the original UI PCB design, the physical product had to be re
 - **Issue**: An error in the UI board rendered it unusable.
 - **Solution**: Redesigned the physical product to function without the UI PCB, ensuring the project remained operational.
 
+![Outer Casing](design/previews/outer_casing.png)  
+*Outer casing design for the Cycling Buddy.*
+
 ### Challenge: Component Integration
 - **Solution**: Iterative testing and debugging to ensure seamless communication between the compute engine and UI.
-
 
 ---
 
@@ -74,12 +82,12 @@ This project significantly contributed to my growth in hardware and software dev
 - Advanced 3D modeling techniques for custom enclosures.
 - Embedded programming for real-time systems.
 
-I also learned how important it is to handle interfarance between components and data cables
+I also learned how important it is to handle interference between components and data cables.
 
 ---
 
 ## Future Improvements
-- **Move everything to 1 PCB**: Redesign the whole computer to utilise only one PCB and let mobile app handle more complex tasks (positioning, getting real time info, ...).
+- **Move everything to 1 PCB**: Redesign the whole computer to utilize only one PCB and let the mobile app handle more complex tasks (positioning, real-time info, etc.).
 - **Improved UI Design**: Finalize a revised UI PCB and incorporate additional features.
 - **Enhanced Power Management**: Optimize battery life for longer usage.
 
